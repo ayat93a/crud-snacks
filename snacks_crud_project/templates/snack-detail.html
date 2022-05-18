@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="{% url 'snack_list' %}">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'snack_update' pk=snack.pk %}">Update</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'snack-delete' pk=snack.pk %}">Delete</a> 
+          </li>
+</nav>
+<br>
+<div class="row">
+    <div class="col-sm-7 offset-2">
+        <h4 class="text-center alert alert-info"> Show Snack Info</h4>
+    
+        <p class="text-center alert alert-warning"> ID : {{snack.pk}}
+            <br>
+             Title : {{ snack.title }} 
+            <br>
+            Purchaser : {{snack.purchaser}}
+            <br>
+            Description : {{snack.description}}
+            
+        </p>
+    </div>
+
+</div>
+{% endblock content %}
