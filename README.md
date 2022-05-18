@@ -15,7 +15,7 @@ associated url path is `<int:pk>/`
 associated url path is `create/`
 - `SnackUpdateView` that extends appropriate generic view
 associated url path is `<int:pk>/update/`
-- SnackDeleteView that extends appropriate generic view
+- `SnackDeleteView` that extends appropriate generic view
 associated url path is `<int:pk>/delete/`
 - urls to support all views, with appropriate names
 - templates support all views
