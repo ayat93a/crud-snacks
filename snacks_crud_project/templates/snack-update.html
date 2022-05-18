@@ -22,7 +22,6 @@
         {% csrf_token %}
         {{form.as_p}}
         <input type="submit" class="btn btn-success" value="Update">
-        <a href="{% url 'snack_create'%}" class="btn btn-info">Back</a>
     </form>
 </div>
 {% endblock content %}
