@@ -30,4 +30,4 @@ associated url path is `<int:pk>/delete/`
 - $ python manage.py runserver
 ```
 
-[Hahsnode Documentation](https://ayat.hashnode.dev/django-404-best-practices-tutorial-part-2)
+[Django 4.0.4 Best Practices Tutorial : Part 2](https://ayat.hashnode.dev/django-404-best-practices-tutorial-part-2)
