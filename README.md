@@ -29,3 +29,5 @@ associated url path is `<int:pk>/delete/`
 - $ poetry shell
 - $ python manage.py runserver
 ```
+
+[Hahsnode Documentation](https://ayat.hashnode.dev/django-404-best-practices-tutorial-part-2)
